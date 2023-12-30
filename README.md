@@ -4,7 +4,7 @@ This is a mobile application developed in Kotlin using Android Studio. It simula
 
 # Important files
 
-Here are some important files that you need to check out:
+Here are some important files that you need to check out :
 
 - MainActivity.kt : This file contains the program that makes the application work. The file is located here : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\java\com\example\spring_mass_simulation_kotlin\MainActivity.kt
 
