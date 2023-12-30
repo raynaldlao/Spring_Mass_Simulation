@@ -640,7 +640,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable objet
+drawable object
 drawable ressort
 drawable right_arrow
 drawable rounded_button
@@ -761,7 +761,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id objet
+id object
 id off
 id on
 id parentPanel

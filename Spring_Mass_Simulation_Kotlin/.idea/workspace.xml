@@ -26,18 +26,6 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -45,9 +33,6 @@
         <option value="valueResourceFile" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,8 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "last_opened_file_path": "C:/Users/Ray/Desktop/Spring_Mass_Simulation/Spring_Mass_Simulation/Spring_Mass_Simulation_Kotlin",
+    "last_opened_file_path": "D:/Cours/M1_OIVM/Mes_cours/M1_COURS_TP_TD/M1/S2/Android/Spring_Mass_Simulation_Kotlin",
     "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
 }]]></component>
@@ -163,7 +147,7 @@
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/spring_mass_simulation_kotlin/MainActivity.kt</url>
           <line>186</line>
-          <properties class="com.example.spring_mass_simulation_kotlin.MainActivity">
+          <properties class="com.example.spring_mass_simulation_kotlin.MainActivity" method="ResumeAnimation">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

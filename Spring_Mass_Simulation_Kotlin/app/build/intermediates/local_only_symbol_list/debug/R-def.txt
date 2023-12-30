@@ -11,12 +11,12 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable left_arrow
-drawable objet
+drawable object
 drawable ressort
 drawable right_arrow
 drawable rounded_button
 id left_arrow
-id objet
+id object
 id pause_button
 id position_seekBar
 id reset_button
