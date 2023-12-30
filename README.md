@@ -1,17 +1,21 @@
 # Spring Mass Simulation
 
-It's a mobile application in Kotlin through Android Studio that allows the simulation of the mechanical movement of a spring attached to a mass.
+This is a mobile application developed in Kotlin using Android Studio. It simulates the mechanical movement of a spring attached to a mass.
 
 # Important files
 
-There are important files that you need to look :
+Here are some important files that you need to check out:
 
-- MainActivity.kt : This file contains the program that make the application work. The file is located here : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\java\com\example\spring_mass_simulation_kotlin\MainActivity.kt
+- MainActivity.kt : This file contains the program that makes the application work. The file is located here : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\java\com\example\spring_mass_simulation_kotlin\MainActivity.kt
 
-- activity_main.xml : This file contains the interface that make the application work. The file is located here : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\res\layout\activity_main.xml
+- activity_main.xml : This file contains the interface that makes the application work. The file is located here : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\res\layout\activity_main.xml
 
-- drawable : This folder contains pictures and xml file used for the activity_main.xml. This folder is located here : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\res\drawable
+- drawable : This folder contains pictures and XML files used for activity_main.xml. This folder is located here : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\res\drawable
 
+# Create device
+
+ I use the Pixel 2 API 30, with a size of 5.0", and a resolution of 1080x1920.
+ 
 # icon.png 
 
 You can use this picture to change the icon of the application. You just need to follow this tutorial : https://developer.android.com/codelabs/basic-android-kotlin-training-change-app-icon#0
