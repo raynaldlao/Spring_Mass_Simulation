@@ -14,6 +14,7 @@ import android.widget.SeekBar
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.coroutines.*
+import android.media.MediaPlayer
 
 class MainActivity : AppCompatActivity() {
 
@@ -88,6 +89,8 @@ class MainActivity : AppCompatActivity() {
 
         // Listener for the reset button
         resetButton.setOnClickListener {
+            val clickSound: MediaPlayer = MediaPlayer.create(this, R.raw.button_click) // Create a MediaPlayer and load your audio file
+            clickSound.start() // Play the sound
             CancelBounceAnimation() // Cancel the ongoing animation
             mSeekBar.progress = SEEK_BAR_INITIAL_PROGRESS
             SpringUpdate(START_POSITION)
@@ -97,6 +100,8 @@ class MainActivity : AppCompatActivity() {
 
         // Listener for the pause button
         pauseButton.setOnClickListener {
+            val clickSound: MediaPlayer = MediaPlayer.create(this, R.raw.button_click)
+            clickSound.start()
             if (isAnimationPaused) {
                 pauseButton.text = "Pause"
                 isAnimationPaused = false
@@ -107,11 +112,22 @@ class MainActivity : AppCompatActivity() {
                 PauseAnimation() // Pause the ongoing animation
             }
         }
+
     }
 
     override fun onStop() {
         super.onStop()
         CancelBounceAnimation() // Cancel the ongoing animation when the activity is stopped
+
+        // Reset the state of the pause button
+        pauseButton.text = "Pause"
+        isAnimationPaused = false
+
+        // Reset the state of the SeekBar and position text
+        mSeekBar.progress = SEEK_BAR_INITIAL_PROGRESS
+        SpringUpdate(START_POSITION)
+        mPositionTextView.text = "$START_POSITION cm"
+        elapsedTime = 0L // The elapsed time is reset to 0 when resetting
     }
 
     // Method to update the spring image and arrows based on the SeekBar progress
