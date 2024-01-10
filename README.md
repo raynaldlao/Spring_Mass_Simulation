@@ -6,11 +6,13 @@ This is a mobile application developed in Kotlin using Android Studio. It simula
 
 Here are some important files that you need to check out :
 
-- MainActivity.kt : This file contains the program that makes the application work. The file is located here : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\java\com\example\spring_mass_simulation_kotlin\MainActivity.kt
+- MainActivity.kt : This file contains the program that makes the application work. The file is located at : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\java\com\example\spring_mass_simulation_kotlin\MainActivity.kt
 
-- activity_main.xml : This file contains the interface that makes the application work. The file is located here : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\res\layout\activity_main.xml
+- activity_main.xml : This file contains the interface that makes the application work. The file is located at : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\res\layout\activity_main.xml
 
-- drawable : This folder contains pictures and XML files used for activity_main.xml. This folder is located here : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\res\drawable
+- drawable : This folder contains pictures and XML files used for activity_main.xml. The folder is located at : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\res\drawable
+
+- raw : This folder contains the MP3 file for the button click sound. The folder is located at : Spring_Mass_Simulation\Spring_Mass_Simulation_Kotlin\app\src\main\res\raw
 
 # Create device
 
